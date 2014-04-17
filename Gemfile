@@ -25,6 +25,8 @@ gem 'jbuilder', '1.0.2'
 gem 'rb-readline'
 # bootstrap-sass, tutorialでは '2.3.2.0'という指定があった
 gem 'bootstrap-sass'
+# セキュアなパスワードのためbcryptを使用
+gem 'bcrypt-ruby'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
