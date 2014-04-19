@@ -5,7 +5,8 @@
 Rails チュートリアル-3章 から
 
 
-メモ
+#### メモ1
+******
 
 RSpec
 ```ruby
@@ -35,5 +36,13 @@ describe User do
   it { expect(@user).to respond_to(:name) }
   it { expect(@user).to respond_to(:email) }
 end
+```
+
+#### メモ2
+******
+
+行末削除
+```
+$ find **/*.rb | xargs perl -p -i -e 's/\s+$/\n/'
 ```
 
