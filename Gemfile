@@ -30,6 +30,7 @@ gem 'rb-readline'
 gem 'bootstrap-sass'
 # セキュアなパスワードのためbcryptを使用
 gem 'bcrypt-ruby'
+gem 'faker'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
