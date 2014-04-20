@@ -105,4 +105,10 @@ describe User do
       expect(@user.reload.email).to eq mixed_case_email.downcase
     end
   end
+
+  describe "remember token" do
+    before { @user.save }
+    its(:remember_token) { should_not be_blank }
+    #it { expect(@user.remember_token).not_to be_blank }と等価
+  end
 end
