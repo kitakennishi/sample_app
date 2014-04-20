@@ -18,6 +18,10 @@ class UsersController < ApplicationController
     end
   end
 
+  def edit
+    @user = User.find(params[:id])
+  end
+
   private
   # userというhashでで、使用することを許可されたkey達
   # Strong Parameters
