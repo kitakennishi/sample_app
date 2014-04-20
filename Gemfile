@@ -31,6 +31,8 @@ gem 'bootstrap-sass'
 # セキュアなパスワードのためbcryptを使用
 gem 'bcrypt-ruby'
 gem 'faker'
+# ページネーション
+gem 'bootstrap-will_paginate'
 
 group :doc do
   gem 'sdoc', '0.3.20', require: false
